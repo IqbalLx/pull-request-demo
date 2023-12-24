@@ -5,6 +5,6 @@
 
 // Function declarations
 int swap(int *x, int *y);
-int sort(int *list, int length, int type);
+void sort(int *list, int length, int type);
 
 #endif /* SORTING_H */

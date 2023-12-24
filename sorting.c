@@ -8,7 +8,7 @@ int swap(int *x, int *y)
     *y = temp;
 }
 
-int sort(int *list, int length, int type)
+void sort(int *list, int length, int type)
 {
     for (int i = 0; i < length - 1; i++)
     {
